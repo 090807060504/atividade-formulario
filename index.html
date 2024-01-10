@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulário</h1>
+    </header>   
+    <form> 
+        <fieldset>
+            <legend>
+                <h2>Dados Pessoais</h2>
+            </legend>
+            <div>
+                <label for="Name">Nome:</label> 
+                <input id="Name"  placeholder="dígite seu Nome aqui" type="text">
+            </div>
+            <br/>
+            <div>
+                <label for="Name">Endereço:</label> 
+                <input id="" placeholder="Dígite seu Endereço aqui">   
+            </div>
+            <br/>
+            <div>
+                <label for="Name">Cidade:</label> 
+                <input id=""  placeholder="Dígite sua Cidade aqui">
+            </div>
+            <br/>
+            <div>
+                <label for="module"> Estado:</label>
+                <select id="module">
+                    <option value="SP">São Paulo</option>
+                    <option value="RJ">Rio De Janeiro</option>
+                    <option value="RN">Rio Grande Do Norte</option>
+                </select>
+            </div> 
+        </fieldset>
+        <fieldset>
+            <legend>
+                <h2>Dados Profissionais</h2>  
+            </legend>
+            <div>
+                <h3>Natureza do cargo</h3>
+            </div>
+            <div> 
+                <input id="manager" type="radio" value="manager" name="office">
+                <label for="manager">Gerência</label>
+                <input id="financial" type="radio" value="finacial" name="office"> 
+                <label for="finacial">Financeiro</label>
+                <input id="frontDesk" type="radio" value="frontDesk" name="office">
+                <label for="frontDesk">Recepção</label>
+                <input id="administrative" type="radio" value="administrative" name="office">
+                <label for="administrative">Administrativo</label>
+                <input id="legal" type="radio" value="legal" name="office">
+                <label for="legal">Jurídico</label>
+            </div>
+            <div>
+                <h3>Área de interesse</h3>
+            </div>
+            <div>
+                <input id="computing" type="checkbox" value="computing" name="interest">
+                <label for="computing">Computação</label>
+                <input id="biology" type="checkbox" value="biology" name="interest">
+                <label for="biology">Biologia</label>
+                <input for="environment" type="checkbox" value="environment" name="interest">
+                <label for="environment">Meio Ambiente</label>
+                <input id="engineering" type="checkbox" value="engineering" name="interest">
+                <label for="engineering">Engenharia</label>
+                <input id="history" type="checkbox" value="history" name="interest">
+                <label fro="history">História</label> 
+            </div>
+                <textarea id="text" rows="10" placeholder="Escreva aqui"></textarea>
+                <p>Mini Curriculo</p>
+            </div>
+                <button type="submit">Enviar</button>
+                <button type="submit">Limpar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
+       
